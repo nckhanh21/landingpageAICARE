@@ -7,7 +7,7 @@ export const homeObjOne = {
   lighttextDesc: true,
   topLine: 'AICare team',
   headline: 'Young, dynamic, creative',
-  description: 'AI Care in VSCS 2022 ',
+  description: 'Viết gì vào đây nhỉ?',
   buttonLabel: 'Get started',
   imgStart: false,
   img: teamimg,

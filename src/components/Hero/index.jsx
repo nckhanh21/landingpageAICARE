@@ -16,7 +16,7 @@ const Hero = () => {
         <VideoBg autoPlay loop muted src={Video} type='video/mp4' />
       </HeroBg>
       <HeroContent>
-        <HeroH1> AI Care </HeroH1>
+        <HeroH1> Do you have difficulty monitoring the health of the ELDERLY?</HeroH1>
         <HeroP>Health Abnormality Detection of Elderly Automatically Using Deep Learning</HeroP>
         <HeroBtnWrapper>
           <Button to='signup' onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true'               smooth={true} duration={500} spy={true} exact='true' offset={-80}>

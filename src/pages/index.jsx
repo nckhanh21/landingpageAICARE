@@ -6,8 +6,8 @@ import InfoTab from '../components/infoTab';
 import { homeObjOne, homeObjTwo, homeObjThree} from '../components/Info/Data';
 import Navbar from '../components/Navbar'
 import Services from '../components/Services';
-import Sidebar from '../components/SideBar'
-import Test from './test';
+import Sidebar from '../components/SideBar';
+import Story from './story'
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false)
 
@@ -20,9 +20,10 @@ const Home = () => {
       <Sidebar isOpen={isOpen} toggle={toggle} />
       <Navbar toggle={toggle}/>
       <Hero />
-      <Test />
+      <Story />
       <InfoTab {...homeObjOne}/>
       <Info {...homeObjTwo}/>
+     
       <Services />
       <Info {...homeObjThree}/>
       <Footer />

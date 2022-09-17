@@ -5,9 +5,8 @@ export const InfoContainer = styled.div`
   display: flex;
   justify-content: center;
   background: ${({lightBg}) => (lightBg ? 'linear-gradient(to right, #ffafbd, #ffc3a0)' : 'linear-gradient(to right, #1a2980, #26d0ce)')};
-  border-bottom-right-radius: 25px;
-  border-bottom-left-radius: 25px;
 
+  border-radius : 25px;
 
   @media screen and (max-width: 768px) {
     height: 1100px;

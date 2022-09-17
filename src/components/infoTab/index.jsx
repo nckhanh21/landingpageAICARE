@@ -12,7 +12,6 @@ import Icon6 from '../../images/minh.jpg'
 
 import { Tabs } from 'antd';
 import 'antd/dist/antd.min.css';
-import Test from '../../pages/test'
 const { TabPane } = Tabs;
 
 const onChange = (key) => {
@@ -84,14 +83,14 @@ const InfoTab = ({ lightBg, id, imgStart, topLine, lightText, headline, darkText
               </MemberWrapper>
             </TabPane>
             <TabPane tab="Jobs" key="3">
-              <InfoWrapper>
+  <InfoWrapper>
                 <InfoRow imgStart={imgStart}>
                   <Column1>
                     <TextWrapper>
                       <TopLine>{topLine}</TopLine>
                       <Heading lightText={lightText}>{"Elderly Healthcare"}</Heading>
-                      <Subtitle style={{ "font-size": "10px" }} darkText={darkText}>{"Abstract. Elderly people who are far from relatives or live alone need regu-lar attention to timely detect abnormalities in their health. To solve this prob-lem, technology has been applied to make it easier and more convenient to monitor the health of the elderly remotely. In this work, we proposed a method and system for automatically tracking and detecting behavioral ab-normalities of the elderly via surveillance cameras using deep learning. In our methodology, the elderly will be detected and tracked when appearing on surveillance cameras in their homes. Basic behaviors will be identified from a series of images obtained during the tracking process, including walking, standing, sitting, and lying. After a period of collecting data about the regular behaviors of the monitored elderly, the system will learn from that behavior database then it will be able to monitor and detect abnormalities in the elder-ly's health. We experimented on our dataset collected from a private surveil-lance camera with normal quality. The result showed that our methodology can be used with cheap cameras to provide service for massive homes on el-derly health abnormalities tracking and early warning."}</Subtitle>
-
+                      <Subtitle style={{"font-size": "12px"}} darkText={darkText}>{"Abstract. Elderly people who are far from relatives or live alone need regu-lar attention to timely detect abnormalities in their health. To solve this prob-lem, technology has been applied to make it easier and more convenient to monitor the health of the elderly remotely. In this work, we proposed a method and system for automatically tracking and detecting behavioral ab-normalities of the elderly via surveillance cameras using deep learning. In our methodology, the elderly will be detected and tracked when appearing on surveillance cameras in their homes. Basic behaviors will be identified from a series of images obtained during the tracking process, including walking, standing, sitting, and lying. After a period of collecting data about the regular behaviors of the monitored elderly, the system will learn from that behavior database then it will be able to monitor and detect abnormalities in the elder-ly's health. We experimented on our dataset collected from a private surveil-lance camera with normal quality. The result showed that our methodology can be used with cheap cameras to provide service for massive homes on el-derly health abnormalities tracking and early warning."}</Subtitle>
+                      
                     </TextWrapper>
                   </Column1>
                   <Column2>
@@ -102,7 +101,6 @@ const InfoTab = ({ lightBg, id, imgStart, topLine, lightText, headline, darkText
                 </InfoRow>
               </InfoWrapper>
             </TabPane>
-            
           </Tabs>
 
         </InfoWrapper>
